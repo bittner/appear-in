@@ -1,0 +1,15 @@
+{
+    "name": "appear-in.peter-bittner",
+    "description": "Video conversations with up to 8 people for free.",
+    "architecture": "all",
+    "title": "appear.in",
+    "hooks": {
+        "appear-in": {
+            "apparmor": "appear-in.apparmor",
+            "desktop": "appear-in.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Peter Bittner <django@bittner.it>",
+    "framework": "ubuntu-sdk-15.04"
+}

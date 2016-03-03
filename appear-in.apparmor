@@ -2,11 +2,16 @@
     "template": "ubuntu-webapp",
     "policy_groups": [
         "networking",
-        "audio",
+        "connectivity",
+        "camera",
+        "microphone",
+        "keep-display-on",
+        "location",
         "content_exchange",
-        "video",
         "webview",
-        "accounts"
+        "accounts",
+        "audio",
+        "video"
     ],
     "policy_version": 1.3
 }

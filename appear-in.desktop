@@ -3,6 +3,6 @@ Name=Appear.in
 Comment=Video conversations with up to 8 people for free.
 Type=Application
 Icon=appear-in.png
-Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://appear.in/*,https?://*.appear.in/* https://appear.in/ %u
+Exec=webapp-container --no-australia-mode --store-session-cookies --webappUrlPatterns=https?://appear.in/*,https?://*.appear.in/* https://appear.in/ %u
 Terminal=false
 X-Ubuntu-Touch=true
